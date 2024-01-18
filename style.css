@@ -1,0 +1,413 @@
+html{
+    overflow-x: hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.final-phrase{
+    color: white;
+    position: absolute;
+    font-size: 22px;
+    margin-top: -200px;
+}
+body{
+    background-color:rgb(202, 255, 244);
+    font-family: 'montserrat';
+}
+
+.title_zerogame{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-left: 160px;
+    font-size: 45px;
+    font-family: 'regular 400';
+}
+.small-title{
+    position: absolute;
+    margin-left: -550px;
+    margin-top: -270px;
+    height: 80px;
+    visibility: hidden;
+}
+
+main{
+    position: absolute;
+    height: 400px;
+    background-color:rgb(0, 87, 187);
+    padding-right: 730px;
+    margin-left: 210px;
+    border-radius: 10px;
+    margin-top: 150px;
+}
+section{
+    position: absolute;
+    background: linear-gradient(rgb(41, 204, 49), blue);
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 1090px;
+    left: -50px;
+    width: 330px;
+    margin-top: 150px;
+    padding-bottom: 183px;
+}
+h1 {
+    color: white;
+    margin-left: 70px;
+    margin-top: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bien{
+    margin-top: 30px;
+    margin-left: 70px;
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    font-weight: bold;
+}
+.select{
+    position: absolute;
+    color: white;
+    margin-left: 70px;
+    margin-top: 7px;
+}
+.better{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+h2{
+    color: white;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p.fraz{
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.advent {
+    color: red;
+    margin-left: 70px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.user {
+    font-weight: bold;
+    margin-left: 35%;
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.input_email{
+    margin-left: 58px;
+    margin-top: 22px;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 230px;
+    padding-left: 2px;
+}
+
+.input_email:focus{
+    outline: none;
+}
+
+.input_password{
+    margin-left: 58px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 230px;
+    padding-left: 2px;
+}
+
+.input_password{
+    outline: none;
+}
+#submit_button{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: -158px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    color: rgb(223, 223, 223);
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: black;
+    cursor: pointer;
+}
+
+.user_account{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 15px;
+    color:rgb(154, 189, 255);
+    font-weight: bold;
+    font-size: 14px;
+    font-family:sans-serif;
+}
+
+.forget_password{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    margin-top: 115px;
+    margin-left: 195px;
+    font-style: italic;
+}
+.img-soldier{
+    max-height: 100%;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: -87px;
+}
+
+.joker-image{
+    position: absolute;
+    height: 230px;
+    left: 20px;
+    visibility: hidden;
+}
+
+.grand-title{
+    position: absolute;
+    height: 150px;
+    top: -200px;
+    left: 600px;
+}
+
+.paragraph{
+    position: absolute;
+    font-size: 30px;
+    top: 630px;
+    left: 50px;
+    font-weight: bold;
+}
+
+
+.background2{
+    height: 1700px;
+    width: 500px;
+    background: linear-gradient(rgb(41, 204, 49), blue);
+}
+.bar{
+    background-color: rgb(0, 60, 255);
+    height: 1600px;
+    width: 100px;
+    top: 1px;
+    left: 800px;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(50deg);
+    filter: blur(2px);
+    
+}
+.bar2{
+    height: 1000px;
+    width: 100px;
+    background-color: rgb(0, 60, 255);
+    position: absolute;
+    top:700px;
+    transform : rotate(90deg);
+    left: 930px;
+    filter: blur(2px);
+    z-index: -1;
+}
+.squad{
+    height: 550px;
+    top: 830px;
+    position: absolute;
+    left: -30px;
+    visibility: visible;
+}
+
+.squad2{
+    height: 300px;
+    position: absolute;
+    top: 880px;
+    left: 630px;
+}
+
+.continuous-paragraph{
+    font-size: 23px;
+    font-weight: 80;
+}
+.continuous-phrase{
+    color: aliceblue;
+    position: absolute;
+    margin-top: 1450px;
+    margin-left: 40px;
+    font-size: 17px;
+    line-height: 30px;
+}
+.yourname{
+    color: blue;
+}
+.fortheplayers{
+
+ font-size: 23px;
+}
+.numberofplayers{
+    color: red;
+}
+
+
+.aleatoire-things{
+    background-color: rgb(0, 4, 255);
+    position: absolute;
+    height: 800px;
+    width: 750px;
+    top: 1400px;
+    left: 580px;
+    border-radius: 5px;
+}
+.aleatoire-phrase{
+    font-style: italic;
+    margin-left: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    font-size: 30px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.versus-img{
+height: 230px;
+margin-top: 70px;
+margin-left: 220px;
+}
+.team{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+#team1{
+    margin-top: -160px;
+    margin-left: 50px;
+}
+#team2{
+    margin-left: 500px;
+}
+
+.condition-de-particpation{
+    margin-left: 40px;
+    margin-top: 80px;
+    font-size: 22px;
+    color: wheat;
+    
+}
+.list{
+    margin-bottom: 11px;
+}
+
+.event{
+    position: absolute;
+    font-size: 36px;
+    margin-left: 250px;
+    margin-top: 19px;
+    font-style: italic;
+}
+.tab-tournament{
+    background: linear-gradient(blue,rgb(41, 204, 49));
+    position: absolute;
+    height: 800px;
+    margin-left: 400px;
+    width: 600px;
+    margin-top: 700px;
+    border-radius: 11px;
+}
+
+@media only screen and (max-width: 1107px) {
+    body {
+        background-color: rgb(202, 255, 244);
+    }
+    main {
+        position: absolute;
+        height: 400px;
+        background-color:rgb(0, 87, 187);
+        padding-right: 465px;
+        margin-left: 70px;
+        border-radius: 10px;
+        margin-top: 150px;
+    }
+    section {
+        position: absolute;
+        background: linear-gradient(rgb(41, 204, 49), blue);
+        border-radius: 0px 10px 10px 0px;
+        margin-left: 1150px;
+        left: -480px;
+        width: 330px;
+        margin-top: 150px;
+        padding-bottom: 183px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    .img-soldier{
+        max-height: 100%;
+        height: 170px;
+        margin-left: 370px;
+        margin-top: 50px;
+        visibility: hidden;
+    
+    }
+    .final-phrase{
+        position: absolute;
+        font-size: 26px;
+    }
+    .joker-image{
+        position: absolute;
+        height: 155px;
+        top: 70px;
+        left: -50px;
+        visibility: visible;
+    }
+
+    .paragraph{
+        font-size: px;
+    }
+    .bar{
+        background-color: rgb(0, 60, 255);
+        height: 1400px;
+        width: 110px;
+        top: 9px;
+        left: 800px;
+        position: absolute;
+        z-index: -1;
+        transform: rotate(50deg);
+        filter: blur(2px);
+        
+    }
+    .squad2{
+        height: 240px;
+        position: absolute;
+        top: 933px;
+        left: 570px;
+    }
+    .bar2{
+        height: 850px;
+        width: 100px;
+        background-color: rgb(0, 60, 255);
+        position: absolute;
+        top:770px;
+        transform : rotate(90deg);
+        left: 875px;
+        filter: blur(2px);
+    }
+}
